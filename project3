@@ -7,8 +7,9 @@ int main()
 	int* ptr;
 	ptr = &a;
 
-	cout << "변수 a의 주소는 :" << 
-	cout << "a의 값은: " <<
-	return 0;
+	cout << "변수 a의 주소는 :" << ptr << endl;
+	cout << "a의 값은: " << a << endl;
+		return 0;
 
 }
+
